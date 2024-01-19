@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: black;
+    color: white;
+    margin:0;
+    padding:0;
+}
+li{
+    background-color: black;
+    color: white;
+    margin-left:15px;
+    cursor: pointer;
+}
+h1,ul,li{
+    display:inline-block;
+}
+nav,ul,li,a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+.eagle,ul,li:hover{
+    color: rgb(71, 20, 237);
+    text-decoration-line: underline; 
+    text-decoration-color:rgb(252, 157, 171);
+    text-decoration-thickness: 2px;
+    text-decoration-style:solid;
+    transition-timing-function: ease-in-out; 
+    transition: 1s;
+}
+h1{
+    margin-right: 900px;
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+}
+.enchanted{
+    width:75%;
+    margin: 0px 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:75%;
+    margin:0px 70px;
+    padding:60px;
+}
+.name{
+    color:rgb(219, 21, 70);
+    font-size: 35px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+#photo{
+    width: 10%;
+    height: 10%;
+    margin-left: 65%;
+    margin-top:5%
+}
+.back,h5{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding:0px 20px;
+    margin: 0px;
+}
+.dog,dl,dd{
+    display: inline-block;
+    padding: 10px 40px; 
+}
+.dog,dl,dd:hover{
+    font-size: 25px;
+    
+                text-decoration-line: underline; 
+                text-decoration-color:rgb(252, 157, 171);
+                text-decoration-thickness: 2px;
+                text-decoration-style:solid;
+                transition-timing-function: ease-in-out; 
+                transition: 1s; 
+}
+.dog,dl,dt:hover{
+    text-decoration-line: underline; 
+                text-decoration-color:black;
+                text-decoration-thickness: 0.1px;
+                text-decoration-style:solid;
+                transition-timing-function: ease-in-out; 
+                
+}
+.gana,dt:hover{
+    text-decoration-line: underline; 
+                text-decoration-color:black;
+                text-decoration-thickness: 1px;
+                text-decoration-style:solid;
+                transition-timing-function: ease-in-out; 
+}
+.gana,th,tr,td{
+    margin:30px;
+    padding:30px;
+}
+#begin{
+    width:90%;
+    margin:0px 10px;
+    padding:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.end{
+    width:30%;
+    margin:0px 10px;
+    padding: 10px;
+    transition:1s;
+    border-radius: 20px;
+    
+    
+}
+.end ul dl:hover{
+    transform:scale(1.2);
+        z-index:1;
+        background-color: rgb(59,49,49);
+    }
+    .container {
+        position: relative;
+       
+        max-width: 35%;
+        display: inline-block;
+      
+       
+      }
+     
+      
+      .image {
+       display: flex;
+       flex-direction: row;
+        width: 80%;
+       height: 40%;
+      
+      }
+      
+      .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 90%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      .firstpage,h1{
+        color:rgb(219, 21, 70);
+                font-size: 45px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .first-page{
+        display:inline-block;
+      }
+      .bounded,table,tr,td{
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+      }
